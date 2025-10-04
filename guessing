@@ -1,0 +1,4 @@
+import random
+n = random.randint(1,10)
+guess = int(input("Guess (1-10): "))
+print("You Win!" if guess==n else f"Nope, it was {n}")
