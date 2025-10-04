@@ -1,0 +1,5 @@
+<script>
+let n = Math.floor(Math.random()*10)+1;
+let g = prompt("Guess 1-10:");
+alert(g==n ? "You Win!" : "Wrong! It was "+n);
+</script>
